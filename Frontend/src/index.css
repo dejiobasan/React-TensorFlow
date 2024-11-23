@@ -1,0 +1,36 @@
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+.webcam, .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.toggle-button {
+  position: absolute;
+  bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
